@@ -3,7 +3,7 @@ from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 
-model = gensim.models.Word2Vec.load("C:/Users/Honta/PycharmProjects/word2vec/fitModel/model_sg_0_window_5_vect_size_100.model")
+model = gensim.models.Word2Vec.load("C:/Users/Honta/PycharmProjects/word2vec/fitModel/model_sg_1_window_5_vect_size_100.model")
 
 # Функция для визуализации эмбеддингов и сохранения в файл
 def visualize_embeddings(model, words, method='pca', filename='embedding_plot.png'):
@@ -25,7 +25,7 @@ def visualize_embeddings(model, words, method='pca', filename='embedding_plot.pn
 
 # Пример визуализации эмбеддингов слов для CBOW модели
 words_to_visualize = ['король', 'мужчина', 'женщина', 'королева']
-visualize_embeddings(model, words_to_visualize, method='pca', filename='cbow_pca.png')
+visualize_embeddings(model, words_to_visualize, method='pca', filename='SkipGram.png')
 
 
-print("Графики сохранены в файлы cbow_pca.png и skipgram_tsne.png.")
+print("Графики сохранены в файлы SkipGram.png и skipgram_tsne.png.")
