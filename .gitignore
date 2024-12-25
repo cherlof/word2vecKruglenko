@@ -37,3 +37,9 @@
 /fitModel/model_sg_1_window_10_vect_size_100.model.wv.vectors.npy
 /fitModel/preprocessed_large_file.csv
 /corpus.jsonl
+/fitModel/AAAmodel_sg_0_window_5_vect_size_100.model
+/fitModel/AAAmodel_sg_0_window_5_vect_size_100.model.syn1neg.npy
+/fitModel/AAAmodel_sg_0_window_5_vect_size_100.model.wv.vectors.npy
+/fitModel/AAAmodel_sg_1_window_5_vect_size_100.model
+/fitModel/AAAmodel_sg_1_window_5_vect_size_100.model.syn1neg.npy
+/fitModel/AAAmodel_sg_1_window_5_vect_size_100.model.wv.vectors.npy

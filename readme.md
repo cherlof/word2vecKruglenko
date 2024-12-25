@@ -30,7 +30,9 @@ CBOW SkipGram, window - размер окна, vector_size - размер эмб
 интерпретируйте результаты.
 • Выполните задачи на аналогии слов (например, "король" - "мужчина" +
 "женщина" ≈ ?).  
-  [Лог](mostSimilar/output.txt)  
+  [Лог](mostSimilar/output.txt) Все   
+  [CBOW](showResult/SBOW.txt)   
+  [SkipGram.txt](showResult/SkipGram.txt)  
   
 Визуализация эмбедингов(На лучшем наборе гиперпараметров)
 ### CBOW  

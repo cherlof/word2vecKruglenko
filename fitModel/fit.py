@@ -4,8 +4,8 @@ import textEdit
 
 def main():
     sg = [0, 1]
-    window = [2, 5, 10]
-    vector_size = [50, 100]
+    window = [5]
+    vector_size = [100]
 
     # Определите размер чанка
     chunk_size = 10000  # Попробуйте различные значения для оптимизации
@@ -28,7 +28,7 @@ def main():
                 # Обучение модели CBOW или Skip-gram
                 model = Word2Vec(sentences=corpus, vector_size=vs, window=w, min_count=1, sg=s, workers=12)
                 # Сохранение модели
-                model_name = f"model_sg_{s}_window_{w}_vect_size_{vs}.model"
+                model_name = f"AAAmodel_sg_{s}_window_{w}_vect_size_{vs}.model"
                 model.save(model_name)
                 print(f"Модель {model_name} обучена и сохранена.")
 
