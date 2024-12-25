@@ -20,6 +20,8 @@ CBOW SkipGram, window - размер окна, vector_size - размер эмб
 Сохранено 12 моделей и протестированы на различных тестовых данных.  
 Результат в [Лог](mostSimilar/output.txt)
   
+![Снимок.PNG](%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.PNG)
+  
 ##### Обучение происходит в Package fitModel.\_\_init__.py с различными гиперпараметрами такими как window, vector_size, sg(0-CBOW,1-SkipGram) и сохраняет модели в файлы. 
 
 #### Анализ:
