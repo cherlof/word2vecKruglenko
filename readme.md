@@ -34,8 +34,8 @@ CBOW SkipGram, window - размер окна, vector_size - размер эмб
 ### CBOW  
 ![cbow_pca.png](showResult/cbow_pca.png)
   
-![cbow_pca.png](showResult/cbow_pca.png)
+![cmow.PNG](showEmbMap/cmow.PNG)
 ### SkipGram  
 ![SkipGram.png](showResult/SkipGram.png)
-  
-![SkipGram.png](showResult/SkipGram.png)
+ 
+![skipgram.PNG](showEmbMap/skipgram.PNG)
