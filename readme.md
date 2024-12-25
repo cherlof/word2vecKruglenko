@@ -33,5 +33,9 @@ CBOW SkipGram, window - размер окна, vector_size - размер эмб
 Визуализация эмбедингов(На лучшем наборе гиперпараметров)
 ### CBOW  
 ![cbow_pca.png](showResult/cbow_pca.png)
+  
+![cbow_pca.png](showResult/cbow_pca.png)
 ### SkipGram  
+![SkipGram.png](showResult/SkipGram.png)
+  
 ![SkipGram.png](showResult/SkipGram.png)
